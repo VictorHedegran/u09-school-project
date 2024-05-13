@@ -1,0 +1,79 @@
+.todoList {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.todoCard {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+.todoCard i {
+    font-size: 1.6rem;
+}
+
+.todoCard h3,
+.todoCard h4,
+.todoCard p {
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+.todoInfo {
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.todoInfo > p {
+    font-size: 1.4rem;
+}
+
+.todoHandling {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.todoStats {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+}
+
+.todoStats li {
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+    width: 40%;
+}
+
+.todoButtons {
+    border: 1px solid #e0e0e0;
+}
+
+.todoButtons button {
+    height: 38px;
+    width: 38px;
+    border: none;
+    border-right: 1px solid #e0e0e0;
+    border-radius: 0;
+    background: none;
+}
+
+.todoButtons button:hover {
+    border-color: #e0e0e0;
+    color: #1e90ff;
+}
+
+.resetButton {
+    font-size: 1.4rem;
+}

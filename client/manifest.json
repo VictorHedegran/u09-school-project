@@ -1,0 +1,13 @@
+{
+    "name": "LevelUp Irl",
+    "short_name": "LevelUpIrl",
+    "description": "Daily tasks to level up yourself!",
+    "start_url": "https://levelupirl.netlify.app/",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#1e90ff",
+    "icons": [
+        { "src": "https://levelupirl.netlify.app/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "https://levelupirl.netlify.app/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    ]
+}

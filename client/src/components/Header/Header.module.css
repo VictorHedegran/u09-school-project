@@ -1,0 +1,190 @@
+.header_desktop {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    background-color: #222222;
+}
+
+.header_desktop i {
+    color: #1e90ff;
+    padding-right: 0.5rem;
+}
+
+.profilePicture_desktop {
+    height: 64px;
+    width: 64px;
+}
+
+.nav_desktop {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 60px;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.nav_desktop li {
+    margin-top: 10px;
+    list-style: none;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_desktop li a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+    height: 100%;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.profile_desktop {
+    line-height: 0.2rem;
+    width: 40vw;
+}
+
+.userInfo_desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.statsList_desktop {
+    list-style-type: none; /* remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.progressbar_desktop {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 16px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px; /* spacing between progress bars */
+    overflow: visible;
+}
+
+.progress_desktop {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #1e90ff;
+    width: 0%; /* initial width */
+    font-size: 1.2rem;
+    transition: width 0.3s ease;
+}
+
+.labels_desktop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.labels_desktop li {
+    margin-bottom: 2px;
+}
+
+.header_mobile {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+i {
+    color: #1e90ff;
+}
+
+.profilePicture_mobile {
+    height: 64px;
+    width: 64px;
+}
+
+.nav_mobile {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #121212;
+    border-top: 2px solid #1e90ff;
+    margin: 0;
+}
+
+.nav_mobile li {
+    list-style: none;
+    width: 100%;
+}
+
+.nav_mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+a i {
+    font-size: 3rem;
+    color: #e0e0e0;
+    transition: all 0.2s;
+}
+
+.profile_mobile {
+    line-height: 0.2rem;
+    width: 40vw;
+}
+
+.userInfo_mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.statsList_mobile {
+    list-style-type: none; /* remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.progressbar_mobile {
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+    height: 16px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px; /* spacing between progress bars */
+    overflow: visible;
+}
+
+.progress_mobile {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #1e90ff;
+    width: 0%; /* initial width */
+    font-size: 1.2rem;
+    transition: width 0.3s ease;
+}
+
+.labels_mobile ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.labels_mobile li {
+    margin-bottom: 2px;
+}

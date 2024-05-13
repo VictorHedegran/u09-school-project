@@ -1,0 +1,14 @@
+.form {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form input {
+    background-color: #121212;
+    font-size: 1.4rem;
+}
+
+.form button {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
